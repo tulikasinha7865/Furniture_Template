@@ -1,0 +1,163 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+  }
+.bs-example{
+    background:#F6F3F9;
+}
+.nav-item{
+    margin-left:5%;
+    color:#000;
+}
+.title{
+    display:inline;
+    color:#000;
+}
+.carousel-caption{
+    color:#000;
+    text-align:left;
+    top:2%;
+    width:50%;
+}
+#part2{
+    color:#E9B433;  
+}
+.carousel .carousel-item{
+    height: 500px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+.third-prod{
+    background:#EDEDF0;
+    text-align:center;
+}
+.second-prod{
+    background:#E2E2E3;
+    text-align:center;
+}
+.first-prod{
+    text-align:center;
+}
+table,td{
+    border:2px solid #000;
+    text-align:center;
+    width:30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text{
+    width:50%;
+    margin-left:25%;
+}
+.fifth-prod{
+    background:#F5F5F5;
+    text-align:center;
+}
+.text1{
+    text-align:center;
+    color:#848484;
+}
+.sixth-prod{
+    width:70%;
+    text-align:center;
+    margin-left:15%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+.section1{
+    position: relative;
+    text-align: center;
+  }
+  #table2{
+    border:2px solid #000;
+    text-align:center;
+    width:70%;
+    margin-left: auto;
+    margin-right: auto; 
+    padding:2%;
+  }
+.footer1-prod{
+    background:#F5F5F5;
+    text-align:center;
+    position: relative;
+    min-height: 500px;
+}
+.footer2-prod{
+    background:#EDEDF0;
+    text-align:center;
+    
+
+}
+.centered1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:70%;
+    height:80%;
+    border: 5px solid #EDEDF0;
+  }
+
+  .centered2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width:70%;
+    height:80%;
+    border: 5px solid #F5F5F5;
+    text-align:left;
+    padding: 2%;
+  }
+
+  .offer{
+   text-align:left;
+  }
+  .foot{
+      text-decoration: none;
+      color:#848484;
+  }
+  .footer3{
+      width:70%;
+      text-align:left;
+  }
+  i{
+      padding:1%;
+      font-size:24px;
+      margin-left:5%;
+  }
+  .sub{
+        display:inline;
+        color:#000;
+        margin-left:10%;
+  }
+  .form-control{
+    display:inline;
+    width:30%;
+    margin-left:2%;
+  }
+  @media (max-width: 576px) { 
+    .centered1{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width:100%;
+        height: auto;
+      } 
+  }
+  @media (max-width: 991.98px) { 
+    .nav-item{
+        margin-left:0%;
+        color:#000;
+    }
+   }
